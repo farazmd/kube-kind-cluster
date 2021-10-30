@@ -10,6 +10,7 @@ Configs to setup kube cluster using kind.
 ## Overview
 
 - [master-only.yaml](master-only.yaml) will create a k8s cluster with only single master node.
+- [master-only-with-port-mapping.yaml](master-only-master-only-with-port-mapping.yaml) will create a k8s cluster with only single master node and port mappings on the host for access.
 - [multi-node.yaml](multi-node.yaml) will create a k8s cluster with 1 master and 2 worker nodes.
   
 ## Usage
